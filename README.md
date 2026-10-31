@@ -7,7 +7,7 @@
 </p>
 <p align="center"><sub>Fringes of the mercury green line recorded in the lab: equal thickness (left) and equal inclination (right). The triangle is a fixed marker.</sub></p>
 
-In a Michelson interferometer, moving one mirror by a distance *d* sweeps *N* dark fringes past any point of the pattern, where **2d = Nλ**. Counting hundreds of fringes by eye is slow and error-prone. So instead we filmed the pattern while turning the micrometer, tracked the brightness of a single pixel in [Tracker](https://physlets.org/tracker/), and counted the dark fringes in software.
+In a Michelson interferometer, moving one mirror by a distance *d* sweeps *N* dark fringes past any point of the pattern, where **2d = Nλ**. Counting hundreds of fringes by eye is slow and error-prone. So instead I filmed the pattern while turning the micrometer, tracked the brightness of a single pixel in [Tracker](https://physlets.org/tracker/), and counted the dark fringes in software.
 
 This repository turns that method into a reproducible pipeline. It reads the original Tracker files, counts the fringes automatically, calibrates the interferometer's lever, and measures the wavelengths.
 
