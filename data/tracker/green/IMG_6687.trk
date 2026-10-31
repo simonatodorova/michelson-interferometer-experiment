@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object class="org.opensourcephysics.cabrillo.tracker.TrackerPanel">
+    <property name="semantic_version" type="string">5.1.3</property>
+    <property name="width" type="double">1920.0</property>
+    <property name="height" type="double">1080.0</property>
+    <property name="magnification" type="double">4.489848193237492</property>
+    <property name="center_x" type="int">4595</property>
+    <property name="center_y" type="int">2478</property>
+    <property name="videoclip" type="object">
+    <object class="org.opensourcephysics.media.core.VideoClip">
+        <property name="video" type="object">
+        <object class="org.opensourcephysics.media.xuggle.XuggleVideo">
+            <property name="path" type="string">IMG_6687.MOV</property>
+        </object>
+        </property>
+        <property name="video_framecount" type="int">799</property>
+        <property name="startframe" type="int">0</property>
+        <property name="stepsize" type="int">1</property>
+        <property name="stepcount" type="int">799</property>
+        <property name="starttime" type="double">0.0</property>
+        <property name="readout" type="string">frame</property>
+        <property name="playallsteps" type="boolean">true</property>
+    </object>
+    </property>
+    <property name="clipcontrol" type="object">
+    <object class="org.opensourcephysics.media.core.StepperClipControl">
+        <property name="rate" type="double">1.0</property>
+        <property name="delta_t" type="double">33.35839598997494</property>
+        <property name="frame" type="int">798</property>
+    </object>
+    </property>
+    <property name="coords" type="object">
+    <object class="org.opensourcephysics.media.core.ImageCoordSystem">
+        <property name="fixedorigin" type="boolean">true</property>
+        <property name="fixedangle" type="boolean">true</property>
+        <property name="fixedscale" type="boolean">true</property>
+        <property name="locked" type="boolean">false</property>
+        <property name="framedata" type="array" class="[Lorg.opensourcephysics.media.core.ImageCoordSystem$FrameData;">
+            <property name="[0]" type="object">
+            <object class="org.opensourcephysics.media.core.ImageCoordSystem$FrameData">
+                <property name="xorigin" type="double">320.0</property>
+                <property name="yorigin" type="double">240.0</property>
+                <property name="angle" type="double">0.0</property>
+                <property name="xscale" type="double">1.0</property>
+                <property name="yscale" type="double">1.0</property>
+            </object>
+            </property>
+        </property>
+    </object>
+    </property>
+    <property name="length_unit" type="string">m</property>
+    <property name="mass_unit" type="string">kg</property>
+    <property name="units_visible" type="boolean">true</property>
+    <property name="tracks" type="collection" class="java.util.ArrayList">
+        <property name="item" type="object">
+        <object class="org.opensourcephysics.cabrillo.tracker.CoordAxes">
+            <property name="name" type="string">axes</property>
+            <property name="color" type="object">
+            <object class="java.awt.Color">
+                <property name="red" type="int">200</property>
+                <property name="green" type="int">0</property>
+                <property name="blue" type="int">200</property>
+                <property name="alpha" type="int">255</property>
+            </object>
+            </property>
+            <property name="footprint" type="string">Footprint.BoldSimpleAxes</property>
+            <property name="visible" type="boolean">false</property>
+            <property name="trail" type="boolean">false</property>
+        </object>
+        </property>
+        <property name="item" type="object">
+        <object class="org.opensourcephysics.cabrillo.tracker.RGBRegion">
+            <property name="name" type="string">region A</property>
+            <property name="color" type="object">
+            <object class="java.awt.Color">
+                <property name="red" type="int">255</property>
+                <property name="green" type="int">0</property>
+                <property name="blue" type="int">255</property>
+                <property name="alpha" type="int">255</property>
+            </object>
+            </property>
+            <property name="footprint" type="string">Footprint.Circle</property>
+            <property name="visible" type="boolean">true</property>
+            <property name="trail" type="boolean">false</property>
+            <property name="fixed" type="boolean">true</property>
+            <property name="fixed_radius" type="boolean">true</property>
+            <property name="framedata" type="array" class="[Lorg.opensourcephysics.cabrillo.tracker.RGBRegion$FrameData;">
+                <property name="[0]" type="object">
+                <object class="org.opensourcephysics.cabrillo.tracker.RGBRegion$FrameData">
+                    <property name="x" type="double">1023.925754060325</property>
+                    <property name="y" type="double">548.798143851508</property>
+                    <property name="r" type="int">1</property>
+                </object>
+                </property>
+            </property>
+            <property name="radii" type="array" class="[Ljava.lang.Integer;">
+                <property name="[0]" type="int">1</property>
+            </property>
+            <property name="rgb" type="array" class="[[D">
+                <property name="array" type="string">{{3.75,111.75,1.75,4.0},{6.25,112.25,6.25,4.0},{4.25,112.75,3.25,4.0},{5.0,113.0,4.0,4.0},{3.25,113.75,2.75,4.0},{5.25,112.75,2.75,4.0},{4.25,113.75,3.25,4.0},{3.0,114.0,4.0,4.0},{4.0,118.0,6.0,4.0},{4.25,120.25,9.75,4.0},{6.25,120.75,7.25,4.0},{5.25,121.75,4.25,4.0},{4.0,126.75,5.75,4.0},{5.5,131.75,6.25,4.0},{7.0,134.5,6.5,4.0},{7.5,130.0,8.0,4.0},{6.5,123.5,5.0,4.0},{8.75,125.25,6.75,4.0},{7.75,136.75,12.75,4.0},{4.75,123.0,12.5,4.0},{6.75,110.75,8.75,4.0},{2.75,110.75,5.25,4.0},{1.0,113.25,4.75,4.0},{4.25,110.25,4.25,4.0},{4.5,110.5,4.5,4.0},{9.75,107.75,4.25,4.0},{8.0,107.0,3.0,4.0},{7.75,106.75,2.75,4.0},{4.5,109.5,0.25,4.0},{2.5,112.25,2.0,4.0},{4.5,112.5,8.5,4.0},{5.25,108.25,6.75,4.0},{3.25,109.75,4.75,4.0},{8.0,108.0,3.0,4.0},{10.5,106.0,4.5,4.0},{10.25,105.25,6.25,4.0},{9.0,107.5,5.0,4.0},{7.75,108.25,6.25,4.0},{5.5,111.5,10.0,4.0},{6.0,112.0,10.5,4.0},{10.5,107.0,8.5,4.0},{12.5,114.0,14.0,4.0},{11.5,129.5,13.5,4.0},{12.75,138.25,16.75,4.0},{11.0,139.5,18.0,4.0},{9.5,144.0,17.0,4.0},{16.25,137.25,19.75,4.0},{6.25,127.0,9.5,4.0},{5.5,121.25,7.25,4.0},{4.5,122.25,7.25,4.0},{3.5,127.0,8.5,4.0},{5.5,137.5,14.5,4.0},{7.5,146.25,17.75,4.0},{7.0,154.0,18.0,4.0},{9.0,156.5,22.0,4.0},{5.0,161.25,21.25,4.0},{6.75,162.75,25.25,4.0},{8.25,168.25,25.75,4.0},{9.25,172.25,27.75,4.0},{11.5,174.5,30.0,4.0},{24.0,185.5,37.0,4.0},{27.75,211.75,47.75,4.0},{37.5,227.5,62.5,4.0},{44.5,238.0,69.5,4.0},{42.5,239.0,72.0,4.0},{44.0,237.5,71.5,4.0},{55.75,247.75,79.75,4.0},{49.25,242.75,74.25,4.0},{41.0,240.0,65.5,4.0},{50.0,243.0,71.5,4.0},{48.25,243.75,65.75,4.0},{47.25,244.25,64.75,4.0},{41.75,246.75,62.25,4.0},{45.75,243.75,66.25,4.0},{26.0,237.0,47.0,4.0},{15.0,222.0,37.0,4.0},{18.25,232.75,46.25,4.0},{25.0,237.5,54.0,4.0},{50.5,228.5,67.5,4.0},{9.5,126.0,12.0,4.0},{3.75,109.75,3.75,4.0},{7.0,112.5,4.5,4.0},{9.0,122.5,14.0,4.0},{10.25,136.75,27.25,4.0},{8.5,137.0,24.5,4.0},{10.0,156.5,29.0,4.0},{10.25,168.25,33.25,4.0},{20.0,199.0,44.5,4.0},{14.75,224.75,39.75,4.0},{6.0,119.0,7.0,4.0},{26.75,185.25,47.75,4.0},{52.5,242.0,75.0,4.0},{7.25,167.25,10.5,4.0},{16.0,194.0,44.5,4.0},{44.25,242.25,71.25,4.0},{52.75,248.25,77.75,4.0},{54.75,247.75,78.25,4.0},{46.75,241.75,72.75,4.0},{30.75,235.25,54.25,4.0},{14.5,170.5,15.0,4.0},{12.0,122.0,9.0,4.0},{17.0,210.5,52.5,4.0},{44.0,244.0,71.0,4.0},{8.5,138.5,11.0,4.0},{55.0,240.0,75.5,4.0},{15.5,197.5,25.5,4.0},{10.25,143.75,9.25,4.0},{2.75,119.5,0.75,4.0},{11.0,123.0,8.5,4.0},{36.75,220.75,61.75,4.0},{42.75,244.25,67.75,4.0},{10.0,122.5,12.0,4.0},{26.75,196.25,34.75,4.0},{52.5,237.5,73.5,4.0},{33.5,231.5,51.5,4.0},{14.25,109.75,16.25,4.0},{21.0,166.5,32.5,4.0},{34.0,228.0,65.5,4.0},{44.25,244.75,71.75,4.0},{12.5,208.5,35.0,4.0},{2.25,124.25,3.75,4.0},{19.5,173.5,28.5,4.0},{48.75,235.75,75.75,4.0},{6.75,160.25,11.25,4.0},{10.5,164.0,22.5,4.0},{48.25,243.75,72.25,4.0},{9.25,169.5,12.5,4.0},{2.75,114.75,7.75,4.0},{17.25,197.25,38.25,4.0},{50.75,240.75,72.25,4.0},{45.75,245.75,68.75,4.0},{13.5,185.0,29.5,4.0},{8.5,117.0,8.0,4.0},{23.25,201.25,55.25,4.0},{65.0,236.5,82.5,4.0},{13.75,147.25,11.75,4.0},{13.0,194.25,35.75,4.0},{55.25,241.75,81.75,4.0},{10.75,120.75,8.75,4.0},{55.5,237.0,79.5,4.0},{13.75,176.75,14.25,4.0},{5.25,143.75,16.25,4.0},{36.0,221.0,55.5,4.0},{53.25,241.75,77.25,4.0},{54.75,248.25,74.25,4.0},{17.5,219.5,30.5,4.0},{8.5,165.0,12.0,4.0},{6.0,102.5,2.0,4.0},{20.25,208.25,49.75,4.0},{22.5,229.5,52.0,4.0},{1.5,131.5,6.0,4.0},{1.25,130.75,4.75,4.0},{2.0,128.0,1.25,4.0},{1.0,120.5,2.5,4.0},{0.75,108.0,9.5,4.0},{14.75,119.25,13.75,4.0},{22.0,209.0,45.0,4.0},{50.0,239.5,72.5,4.0},{54.5,244.0,73.5,4.0},{21.25,222.25,38.25,4.0},{13.0,109.5,12.5,4.0},{21.25,190.25,35.75,4.0},{46.5,238.0,67.0,4.0},{6.75,169.75,18.75,4.0},{7.25,107.75,9.25,4.0},{8.25,145.25,15.25,4.0},{44.5,224.5,66.5,4.0},{32.75,234.75,59.25,4.0},{3.25,127.25,4.75,4.0},{5.0,125.0,5.5,4.0},{5.0,120.0,5.5,4.0},{12.75,128.75,17.25,4.0},{52.5,238.0,77.0,4.0},{5.5,171.0,14.5,4.0},{8.25,136.75,15.25,4.0},{11.25,195.75,38.25,4.0},{54.75,235.75,82.75,4.0},{8.75,169.25,13.25,4.0},{9.25,143.0,22.0,4.0},{51.5,240.5,76.0,4.0},{36.0,233.0,60.0,4.0},{12.0,175.0,15.0,4.0},{10.25,108.25,3.75,4.0},{20.5,183.5,32.5,4.0},{15.5,237.5,45.0,4.0},{15.5,156.0,26.0,4.0},{24.0,178.0,35.5,4.0},{22.5,178.5,35.0,4.0},{29.5,228.5,56.0,4.0},{51.75,245.75,72.75,4.0},{12.25,173.75,13.75,4.0},{11.5,174.0,31.0,4.0},{32.75,234.75,55.75,4.0},{7.5,122.0,10.0,4.0},{40.0,238.0,66.0,4.0},{16.25,139.75,21.25,4.0},{51.0,239.5,68.0,4.0},{7.5,182.0,20.0,4.0},{6.0,169.5,12.5,4.0},{6.75,122.25,2.25,4.0},{37.75,218.25,71.25,4.0},{19.5,221.0,42.0,4.0},{5.5,126.5,7.5,4.0},{5.75,108.75,10.75,4.0},{4.0,111.0,10.5,4.0},{5.0,107.0,5.0,4.0},{15.5,180.5,32.0,4.0},{43.0,242.5,70.0,4.0},{30.5,239.0,56.5,4.0},{17.0,237.0,44.0,4.0},{4.25,150.25,6.75,4.0},{7.75,124.5,15.5,4.0},{33.25,214.25,52.25,4.0},{49.75,242.25,71.75,4.0},{15.5,219.5,30.5,4.0},{8.5,150.5,11.0,4.0},{10.0,129.0,13.0,4.0},{17.0,162.5,29.5,4.0},{48.5,245.5,76.0,4.0},{14.75,221.75,39.75,4.0},{7.25,119.25,4.25,4.0},{46.5,251.0,75.5,4.0},{19.0,206.5,37.0,4.0},{17.75,141.75,20.75,4.0},{1.25,106.25,9.75,4.0},{12.25,147.75,26.25,4.0},{43.0,230.0,72.0,4.0},{18.75,201.25,26.75,4.0},{0.0,111.25,10.75,4.0},{7.0,146.0,16.0,4.0},{40.5,228.5,64.5,4.0},{50.25,247.75,76.75,4.0},{58.25,247.75,78.25,4.0},{50.25,247.25,73.25,4.0},{8.0,195.5,24.0,4.0},{5.0,112.0,3.5,4.0},{12.75,177.25,28.25,4.0},{40.25,235.75,62.25,4.0},{5.75,133.0,16.5,4.0},{5.75,157.25,18.25,4.0},{23.0,197.0,41.0,4.0},{26.5,214.0,50.0,4.0},{50.0,235.0,69.5,4.0},{40.75,247.25,75.25,4.0},{5.5,115.5,6.0,4.0},{22.0,188.0,41.5,4.0},{46.0,240.0,69.0,4.0},{39.25,238.75,63.75,4.0},{9.25,110.25,13.25,4.0},{8.5,171.75,32.75,4.0},{42.0,230.0,62.0,4.0},{42.0,228.0,63.5,4.0},{42.75,232.25,61.75,4.0},{38.5,246.0,70.5,4.0},{5.0,128.0,15.5,4.0},{17.25,191.25,38.25,4.0},{20.5,224.0,45.5,4.0},{12.0,143.0,23.0,4.0},{24.25,213.25,48.75,4.0},{20.75,202.75,38.25,4.0},{32.5,228.0,54.5,4.0},{38.0,231.0,56.0,4.0},{23.75,199.75,43.25,4.0},{9.5,163.0,7.0,4.0},{32.5,212.5,55.5,4.0},{33.5,240.0,60.5,4.0},{4.5,122.5,12.5,4.0},{10.5,124.5,12.5,4.0},{22.0,207.0,47.0,4.0},{36.75,224.75,58.25,4.0},{34.0,227.0,61.0,4.0},{52.75,242.75,72.25,4.0},{6.75,117.25,10.75,4.0},{19.5,195.0,45.0,4.0},{48.0,237.0,77.0,4.0},{14.5,185.5,19.0,4.0},{6.25,113.25,4.75,4.0},{9.0,109.0,7.0,4.0},{21.0,196.5,45.5,4.0},{10.75,178.75,20.25,4.0},{54.0,229.0,75.0,4.0},{5.75,117.75,10.75,4.0},{19.25,162.75,33.75,4.0},{23.75,205.25,49.75,4.0},{33.0,226.5,63.0,4.0},{52.0,240.5,79.5,4.0},{14.0,179.0,20.0,4.0},{15.25,183.75,28.25,4.0},{42.25,243.25,56.75,4.0},{9.0,178.5,17.0,4.0},{7.25,177.75,20.25,4.0},{6.25,172.0,22.0,4.0},{5.25,141.25,18.25,4.0},{16.25,168.75,33.25,4.0},{24.0,234.0,48.5,4.0},{3.25,122.75,5.75,4.0},{38.5,225.0,53.5,4.0},{38.5,211.0,61.0,4.0},{7.25,151.75,14.75,4.0},{19.5,167.5,35.0,4.0},{33.75,205.75,49.25,4.0},{34.75,211.75,51.25,4.0},{52.75,239.75,79.25,4.0},{9.0,181.0,15.5,4.0},{24.25,176.25,35.75,4.0},{54.75,241.75,77.75,4.0},{23.75,238.75,47.75,4.0},{17.75,227.25,35.25,4.0},{11.0,154.0,16.0,4.0},{3.0,153.0,20.5,4.0},{59.5,237.0,80.0,4.0},{12.0,180.0,19.5,4.0},{4.5,114.0,7.0,4.0},{8.5,135.5,19.0,4.0},{11.5,143.5,22.0,4.0},{15.5,177.0,33.0,4.0},{28.25,206.25,47.75,4.0},{34.0,229.5,58.0,4.0},{37.25,235.75,55.75,4.0},{7.0,120.0,8.5,4.0},{10.75,180.25,23.75,4.0},{60.25,238.75,76.75,4.0},{42.25,243.25,65.75,4.0},{11.75,152.75,13.25,4.0},{34.25,210.75,48.25,4.0},{46.0,243.0,72.5,4.0},{23.0,229.5,41.0,4.0},{13.5,218.5,33.0,4.0},{7.0,188.0,20.5,4.0},{4.75,116.75,8.75,4.0},{16.0,156.5,31.0,4.0},{19.75,157.75,34.25,4.0},{15.5,139.0,23.5,4.0},{13.75,127.75,19.25,4.0},{13.75,138.25,22.75,4.0},{13.0,156.0,25.0,4.0},{57.5,243.0,85.5,4.0},{11.5,158.5,17.0,4.0},{36.25,213.25,52.75,4.0},{14.25,208.75,33.25,4.0},{2.0,118.0,7.5,4.0},{19.0,182.0,37.5,4.0},{20.0,192.5,39.0,4.0},{31.0,216.5,48.5,4.0},{18.75,226.75,33.25,4.0},{37.25,219.75,58.75,4.0},{10.25,167.75,13.75,4.0},{44.0,224.0,67.0,4.0},{23.5,238.0,49.5,4.0},{27.5,240.0,51.5,4.0},{17.25,228.75,38.75,4.0},{8.5,164.75,15.25,4.0},{19.25,179.25,33.25,4.0},{11.0,164.75,14.25,4.0},{5.0,114.0,2.0,4.0},{3.5,114.25,2.0,4.0},{3.5,120.5,3.0,4.0},{11.0,155.5,29.5,4.0},{49.75,239.75,70.25,4.0},{35.25,192.75,52.75,4.0},{57.0,214.0,75.5,4.0},{25.0,185.5,47.5,4.0},{50.75,242.25,84.75,4.0},{52.25,241.75,78.25,4.0},{57.0,245.5,81.0,4.0},{52.0,250.0,74.5,4.0},{51.25,248.75,75.75,4.0},{40.25,240.25,66.25,4.0},{33.0,240.5,55.0,4.0},{21.75,236.75,38.75,4.0},{5.5,128.0,11.5,4.0},{7.75,137.75,7.75,4.0},{18.5,207.5,42.0,4.0},{19.25,215.25,41.75,4.0},{45.0,243.0,67.5,4.0},{69.0,241.0,81.0,4.0},{55.25,242.75,75.25,4.0},{8.0,176.5,22.0,4.0},{36.25,207.75,64.25,4.0},{4.5,141.25,4.75,4.0},{53.25,241.25,74.75,4.0},{42.75,243.75,66.25,4.0},{39.75,240.75,63.25,4.0},{9.25,170.75,10.75,4.0},{16.5,198.0,42.5,4.0},{27.75,235.25,47.75,4.0},{3.75,121.75,15.25,4.0},{5.25,131.75,14.25,4.0},{4.0,123.5,14.0,4.0},{3.5,111.0,9.0,4.0},{53.75,216.25,74.25,4.0},{19.5,198.0,44.0,4.0},{20.25,204.75,32.75,4.0},{42.25,225.75,60.75,4.0},{52.75,215.75,72.25,4.0},{0.0,116.25,1.0,4.0},{40.5,234.0,67.0,4.0},{23.25,233.25,47.25,4.0},{6.5,126.5,3.5,4.0},{14.5,221.5,25.0,4.0},{0.75,117.25,4.75,4.0},{1.5,125.5,4.0,4.0},{8.75,130.25,9.75,4.0},{8.0,119.0,7.0,4.0},{4.75,158.25,3.25,4.0},{0.0,108.75,3.25,4.0},{2.75,107.25,4.25,4.0},{2.75,108.75,2.75,4.0},{4.0,108.5,3.0,4.0},{5.25,109.25,6.25,4.0},{5.0,111.5,7.5,4.0},{2.0,110.75,4.75,4.0},{8.5,113.0,8.5,4.0},{7.75,116.25,9.25,4.0},{7.0,118.5,10.5,4.0},{8.0,118.5,11.0,4.0},{7.25,117.75,8.25,4.0},{8.25,116.75,7.75,4.0},{5.5,114.0,5.0,4.0},{11.0,109.5,10.5,4.0},{10.5,111.5,6.0,4.0},{15.25,120.25,11.25,4.0},{18.25,132.25,23.75,4.0},{18.5,157.0,37.0,4.0},{14.0,173.0,39.0,4.0},{14.25,173.25,38.25,4.0},{23.25,227.75,50.25,4.0},{9.5,148.5,26.0,4.0},{27.5,200.5,44.5,4.0},{59.5,244.0,80.0,4.0},{39.25,238.25,65.75,4.0},{27.5,226.5,48.5,4.0},{12.25,200.75,20.75,4.0},{8.75,136.75,11.75,4.0},{1.0,107.25,0.25,4.0},{16.75,146.25,21.75,4.0},{56.75,238.75,78.75,4.0},{6.0,176.5,16.0,4.0},{16.0,174.5,28.0,4.0},{48.25,240.25,71.25,4.0},{7.0,136.0,7.5,4.0},{21.5,198.5,47.0,4.0},{33.0,230.0,63.0,4.0},{45.75,242.75,76.75,4.0},{16.5,171.5,21.0,4.0},{25.5,207.5,50.0,4.0},{32.5,223.5,59.5,4.0},{39.25,230.75,65.25,4.0},{10.75,143.25,15.75,4.0},{15.0,179.0,35.5,4.0},{39.75,235.75,70.25,4.0},{19.75,225.25,38.25,4.0},{13.0,220.0,36.0,4.0},{15.0,200.5,23.5,4.0},{7.25,148.75,11.25,4.0},{6.0,130.5,15.0,4.0},{40.5,245.5,70.0,4.0},{7.0,111.5,9.5,4.0},{26.25,194.25,42.25,4.0},{51.0,245.5,71.0,4.0},{17.0,226.0,36.5,4.0},{9.75,199.75,17.75,4.0},{5.5,133.0,7.75,4.0},{8.75,105.25,7.25,4.0},{9.0,112.0,9.0,4.0},{11.0,157.0,25.5,4.0},{42.75,242.75,72.25,4.0},{12.0,202.5,30.5,4.0},{5.25,123.25,6.75,4.0},{4.0,107.0,8.0,4.0},{5.0,117.0,12.5,4.0},{13.75,174.25,31.75,4.0},{47.75,236.75,71.25,4.0},{25.75,236.75,47.75,4.0},{3.0,120.5,4.0,4.0},{16.5,179.5,35.0,4.0},{53.0,238.5,71.5,4.0},{10.75,152.75,21.75,4.0},{4.0,108.5,0.75,4.0},{2.25,106.75,0.5,4.0},{0.0,105.75,0.0,4.0},{11.5,164.5,21.0,4.0},{30.25,227.25,44.25,4.0},{6.25,132.25,11.75,4.0},{14.0,151.5,24.0,4.0},{43.75,230.75,70.25,4.0},{14.0,152.0,17.0,4.0},{12.75,127.25,18.25,4.0},{12.0,130.5,18.0,4.0},{9.25,132.75,15.25,4.0},{13.75,164.25,25.25,4.0},{57.0,234.5,78.5,4.0},{9.75,122.75,5.25,4.0},{55.25,238.75,71.75,4.0},{12.25,195.0,31.5,4.0},{3.25,116.5,1.25,4.0},{12.25,135.75,13.75,4.0},{18.5,188.0,39.0,4.0},{40.0,249.0,78.5,4.0},{35.5,245.0,68.0,4.0},{23.25,236.25,41.75,4.0},{4.5,136.0,4.5,4.0},{12.75,139.25,19.75,4.0},{44.5,233.0,64.0,4.0},{8.0,159.0,13.0,4.0},{5.5,115.0,12.5,4.0},{4.25,110.25,8.75,4.0},{25.5,202.0,52.0,4.0},{12.25,194.25,21.25,4.0},{11.25,165.25,22.75,4.0},{43.0,240.0,68.5,4.0},{13.0,152.5,12.5,4.0},{6.0,114.0,7.0,4.0},{16.75,179.25,34.75,4.0},{35.0,237.0,68.0,4.0},{6.0,116.0,4.5,4.0},{20.5,203.5,42.0,4.0},{54.5,237.0,73.5,4.0},{48.5,240.5,67.0,4.0},{7.5,188.5,23.0,4.0},{4.5,131.0,10.0,4.0},{12.0,103.5,10.5,4.0},{11.0,137.25,25.25,4.0},{48.0,225.5,69.5,4.0},{18.5,215.0,11.0,4.0},{17.5,156.5,28.0,4.0},{34.25,235.75,50.25,4.0},{2.75,119.75,6.75,4.0},{9.0,137.5,20.5,4.0},{22.0,209.0,54.0,4.0},{54.0,238.0,76.5,4.0},{9.25,173.75,15.25,4.0},{2.25,106.75,7.25,4.0},{42.5,222.0,72.0,4.0},{8.25,183.5,20.0,4.0},{7.0,121.5,16.0,4.0},{18.25,185.75,31.75,4.0},{40.75,235.25,63.25,4.0},{8.5,175.0,24.5,4.0},{50.75,234.25,78.25,4.0},{7.0,197.0,19.5,4.0},{0.0,111.5,6.5,4.0},{19.5,211.5,50.5,4.0},{52.0,240.5,75.0,4.0},{6.75,122.25,14.25,4.0},{42.5,227.0,64.0,4.0},{36.5,237.5,62.5,4.0},{13.0,191.5,26.0,4.0},{10.75,164.25,16.25,4.0},{5.5,120.5,6.0,4.0},{30.0,233.0,59.5,4.0},{8.0,126.5,13.0,4.0},{44.5,232.5,72.0,4.0},{14.0,216.5,26.0,4.0},{7.25,150.25,14.75,4.0},{7.75,115.25,11.25,4.0},{55.0,238.0,75.5,4.0},{13.25,156.25,18.25,4.0},{17.0,157.5,18.5,4.0},{14.25,151.25,12.25,4.0},{13.75,182.25,32.75,4.0},{12.25,195.75,24.25,4.0},{31.5,217.5,56.5,4.0},{13.0,215.5,27.0,4.0},{8.25,140.25,17.75,4.0},{14.5,209.5,35.0,4.0},{17.5,150.0,23.0,4.0},{49.5,235.0,77.5,4.0},{14.75,176.25,16.25,4.0},{33.25,222.25,58.75,4.0},{11.5,197.5,26.0,4.0},{11.75,155.25,25.25,4.0},{26.0,214.0,56.5,4.0},{29.5,225.5,61.0,4.0},{37.25,237.75,62.75,4.0},{8.0,115.0,6.5,4.0},{7.0,137.0,13.0,4.0},{28.0,225.5,60.5,4.0},{40.0,242.0,73.0,4.0},{46.0,242.5,73.0,4.0},{12.5,180.0,7.0,4.0},{18.25,169.75,31.75,4.0},{24.5,196.0,44.0,4.0},{40.0,223.0,64.0,4.0},{48.25,232.25,65.75,4.0},{30.75,223.75,56.75,4.0},{27.25,213.75,54.75,4.0},{32.75,218.25,61.75,4.0},{56.0,241.5,84.0,4.0},{5.75,143.75,7.75,4.0},{44.0,243.0,68.0,4.0},{16.75,202.25,32.25,4.0},{2.75,109.75,6.75,4.0},{3.0,165.75,26.25,4.0},{59.5,234.0,74.5,4.0},{8.25,164.75,8.25,4.0},{8.75,128.25,13.25,4.0},{24.5,209.0,52.5,4.0},{47.5,239.0,67.0,4.0},{13.25,144.25,12.75,4.0},{15.5,169.5,32.5,4.0},{15.25,196.75,20.25,4.0},{0.75,109.0,0.0,4.0},{20.5,181.0,45.5,4.0},{18.25,195.75,47.75,4.0},{19.5,195.5,41.0,4.0},{18.5,190.0,41.5,4.0},{9.75,147.75,23.25,4.0},{20.5,202.5,46.0,4.0},{25.25,212.75,47.75,4.0},{32.25,221.75,54.75,4.0},{35.75,224.75,60.25,4.0},{41.75,230.75,67.25,4.0},{43.25,232.25,68.75,4.0},{46.75,237.25,72.25,4.0},{48.0,242.0,72.0,4.0},{45.75,243.25,72.75,4.0},{51.5,244.5,79.5,4.0},{51.25,248.25,82.25,4.0},{51.75,248.75,79.25,4.0},{29.0,239.5,59.5,4.0},{4.25,165.75,15.25,4.0},{17.75,207.25,31.25,4.0},{18.5,179.5,35.5,4.0},{52.5,240.0,76.0,4.0},{9.75,194.25,22.25,4.0},{9.25,175.75,16.25,4.0},{16.25,161.25,23.75,4.0},{9.25,168.75,17.75,4.0},{23.0,188.5,46.5,4.0},{46.5,241.5,76.0,4.0},{4.5,135.0,9.5,4.0},{15.75,165.75,36.25,4.0},{32.25,220.75,58.75,4.0},{61.75,242.75,81.75,4.0},{44.75,240.25,72.25,4.0},{5.0,142.5,3.25,4.0},{22.75,197.25,43.25,4.0},{44.75,243.25,73.25,4.0},{9.5,191.5,19.5,4.0},{19.0,171.5,32.0,4.0},{48.5,236.5,70.0,4.0},{3.75,147.25,17.25,4.0},{43.5,236.0,71.5,4.0},{40.0,236.5,70.5,4.0},{14.75,204.75,30.75,4.0},{11.5,155.5,22.5,4.0},{35.75,241.75,62.75,4.0},{16.25,226.25,37.75,4.0},{12.0,162.5,12.0,4.0},{23.75,198.75,49.25,4.0},{13.25,189.25,22.25,4.0},{9.25,126.25,7.75,4.0},{47.75,242.25,75.75,4.0},{0.0,145.75,2.75,4.0},{56.25,236.75,74.25,4.0},{13.0,214.5,25.5,4.0},{7.25,204.75,29.25,4.0},{11.0,208.5,32.0,4.0},{11.5,171.25,24.75,4.0},{5.0,132.0,8.5,4.0},{43.75,229.75,68.75,4.0},{32.0,233.0,56.5,4.0},{6.0,134.25,9.25,4.0},{19.0,145.5,26.0,4.0},{35.75,218.25,59.25,4.0},{63.5,243.0,82.5,4.0},{12.5,207.0,23.5,4.0},{7.5,127.0,12.0,4.0},{7.0,124.0,12.0,4.0},{50.25,238.25,74.25,4.0},{13.0,147.5,21.5,4.0},{12.5,140.5,22.5,4.0},{15.25,134.75,19.75,4.0},{16.25,131.25,17.75,4.0},{15.25,136.25,17.25,4.0},{13.25,162.25,32.75,4.0},{16.25,199.25,44.75,4.0},{34.0,239.5,59.0,4.0},{12.25,154.75,12.25,4.0},{10.25,132.25,9.75,4.0},{10.0,135.0,10.0,4.0},{12.5,150.5,12.5,4.0},{13.0,163.5,17.5,4.0},{15.25,231.75,26.75,4.0},{14.5,182.5,14.5,4.0},{7.75,115.75,7.75,4.0},{3.5,108.0,1.75,4.0},{2.5,108.75,3.75,4.0},{6.25,108.25,2.25,4.0},{0.75,114.25,0.75,4.0},{6.0,116.0,12.0,4.0},{4.75,118.75,15.75,4.0},{4.0,120.25,11.75,4.0},{5.75,118.5,9.0,4.0},{6.75,112.25,5.25,4.0},{4.25,105.25,1.5,4.0},{3.25,105.25,4.25,4.0},{4.75,105.25,3.25,4.0},{5.0,105.5,2.5,4.0},{4.75,104.25,6.25,4.0},{2.0,107.0,8.0,4.0},{2.25,108.25,4.25,4.0},{2.0,107.5,7.5,4.0},{3.0,104.0,7.0,4.0},{1.5,104.0,2.0,4.0},{2.75,103.75,3.75,4.0},{3.75,104.75,7.25,4.0},{3.0,105.75,7.75,4.0},{2.25,104.75,7.25,4.0},{1.0,107.5,1.5,4.0},{2.0,108.5,2.0,4.0},{3.5,106.5,6.5,4.0},{3.0,105.25,7.75,4.0},{3.25,106.25,6.25,4.0},{1.25,104.75,3.25,4.0},{2.0,106.0,2.25,4.0},{3.75,105.75,4.75,4.0},{6.25,106.25,5.75,4.0},{4.5,106.0,5.0,4.0},{1.0,109.0,5.5,4.0},{1.75,109.5,9.5,4.0},{1.5,110.25,3.5,4.0},{3.25,105.75,9.25,4.0},{3.25,107.25,7.75,4.0},{5.0,106.0,11.0,4.0},{5.25,107.75,9.75,4.0},{5.25,107.25,11.75,4.0},{6.75,106.75,11.75,4.0},{5.25,107.25,11.75,4.0},{4.75,105.75,10.75,4.0},{5.0,106.5,9.0,4.0},{3.75,105.75,10.25,4.0},{6.0,108.5,15.0,4.0},{7.0,115.0,15.5,4.0},{6.75,123.5,18.5,4.0},{4.25,123.25,11.75,4.0},{2.5,126.5,9.5,4.0},{5.0,131.25,16.25,4.0},{5.25,141.0,17.0,4.0},{8.25,161.25,22.75,4.0},{12.25,173.25,27.25,4.0},{15.5,188.5,32.5,4.0},{14.0,188.0,34.0,4.0},{17.0,178.5,36.5,4.0},{13.5,167.0,32.5,4.0},{13.25,150.75,27.25,4.0},{12.5,142.5,25.5,4.0},{12.25,137.25,21.25,4.0},{10.5,132.0,18.5,4.0},{10.75,128.75,19.75,4.0},{3.5,121.75,12.75,4.0},{2.75,119.5,13.0,4.0},{3.0,119.0,10.0,4.0},{3.75,120.5,9.0,4.0},{2.75,121.5,12.0,4.0},{2.75,123.0,12.0,4.0},{4.25,123.0,18.5,4.0},{5.0,125.5,19.0,4.0},{4.0,123.0,18.5,4.0},{4.5,123.25,17.75,4.0},{2.5,124.0,17.0,4.0},{2.5,124.0,17.0,4.0},{3.0,121.5,19.0,4.0},{2.0,120.0,16.5,4.0},{1.75,115.75,13.75,4.0},{0.75,118.75,14.25,4.0},{1.25,120.5,14.5,4.0},{1.25,121.75,15.25,4.0},{1.75,123.5,17.0,4.0},{4.0,123.75,17.75,4.0},{6.0,126.25,20.25,4.0},{5.5,123.0,18.0,4.0},{5.25,122.75,17.75,4.0},{4.25,123.75,17.75,4.0},{3.5,122.0,16.5,4.0},{3.5,120.5,16.5,4.0},{2.75,120.25,13.75,4.0},{3.25,118.75,17.25,4.0},{3.0,120.0,16.0,4.0},{6.25,115.0,7.0,4.0},{6.75,114.75,7.25,4.0},{7.5,115.5,8.0,4.0},{7.75,115.25,7.75,4.0},{6.0,113.0,10.0,4.0},{4.5,113.0,7.5,4.0},{4.25,114.25,8.25,4.0},{6.75,112.75,10.25,4.0},{6.75,114.25,11.25,4.0},{6.75,114.75,9.25,4.0},{5.0,114.5,8.5,4.0},{3.75,113.25,7.25,4.0},{4.0,114.0,8.0,4.0},{2.25,115.75,7.75,4.0},{1.25,120.0,9.0,4.0},{2.25,120.25,9.25,4.0},{4.5,116.5,12.0,4.0},{5.25,119.25,10.75,4.0},{4.5,121.0,13.5,4.0}}</property>
+            </property>
+        </object>
+        </property>
+    </property>
+    <property name="selectedtrack" type="string">region A</property>
+    <property name="dividers" type="array" class="[D">
+        <property name="array" type="string">{0.7027300303336703,0.5,1.0,0.34984833164812945}</property>
+    </property>
+    <property name="views" type="array" class="[[Lorg.opensourcephysics.cabrillo.tracker.TView;">
+        <property name="[0]" type="array" class="[Lorg.opensourcephysics.cabrillo.tracker.TView;">
+            <property name="[1]" type="object">
+            <object class="org.opensourcephysics.cabrillo.tracker.TableTView">
+                <property name="selected_track" type="string">region A</property>
+                <property name="track_columns" type="array" class="[[Ljava.lang.String;">
+                    <property name="[0]" type="array" class="[Ljava.lang.String;">
+                        <property name="[0]" type="string">region A</property>
+                        <property name="[1]" type="string">t</property>
+                        <property name="[2]" type="string">x</property>
+                        <property name="[3]" type="string">y</property>
+                        <property name="[4]" type="string">luma</property>
+                    </property>
+                </property>
+                <property name="column_formats" type="array" class="[[[Ljava.lang.String;">
+                    <property name="[0]" type="array" class="[[Ljava.lang.String;">
+                        <property name="[0]" type="array" class="[Ljava.lang.String;">
+                            <property name="[0]" type="string">region A</property>
+                            <property name="[1]" type="string">B</property>
+                            <property name="[2]" type="string">0.0</property>
+                        </property>
+                        <property name="[1]" type="array" class="[Ljava.lang.String;">
+                            <property name="[0]" type="string">region A</property>
+                            <property name="[1]" type="string">R</property>
+                            <property name="[2]" type="string">0.0</property>
+                        </property>
+                        <property name="[2]" type="array" class="[Ljava.lang.String;">
+                            <property name="[0]" type="string">region A</property>
+                            <property name="[1]" type="string">pixels</property>
+                            <property name="[2]" type="string">0</property>
+                        </property>
+                        <property name="[3]" type="array" class="[Ljava.lang.String;">
+                            <property name="[0]" type="string">region A</property>
+                            <property name="[1]" type="string">t</property>
+                            <property name="[2]" type="string">0.000</property>
+                        </property>
+                        <property name="[4]" type="array" class="[Ljava.lang.String;">
+                            <property name="[0]" type="string">region A</property>
+                            <property name="[1]" type="string">G</property>
+                            <property name="[2]" type="string">0.0</property>
+                        </property>
+                        <property name="[5]" type="array" class="[Ljava.lang.String;">
+                            <property name="[0]" type="string">region A</property>
+                            <property name="[1]" type="string">step</property>
+                            <property name="[2]" type="string">0</property>
+                        </property>
+                        <property name="[6]" type="array" class="[Ljava.lang.String;">
+                            <property name="[0]" type="string">region A</property>
+                            <property name="[1]" type="string">frame</property>
+                            <property name="[2]" type="string">0</property>
+                        </property>
+                        <property name="[7]" type="array" class="[Ljava.lang.String;">
+                            <property name="[0]" type="string">region A</property>
+                            <property name="[1]" type="string">luma</property>
+                            <property name="[2]" type="string">0.0</property>
+                        </property>
+                    </property>
+                </property>
+            </object>
+            </property>
+        </property>
+        <property name="[1]" type="array" class="[Lorg.opensourcephysics.cabrillo.tracker.TView;">
+            <property name="[1]" type="object">
+            <object class="org.opensourcephysics.cabrillo.tracker.TableTView">
+                <property name="selected_track" type="string">region A</property>
+                <property name="track_columns" type="array" class="[[Ljava.lang.String;">
+                    <property name="[0]" type="array" class="[Ljava.lang.String;">
+                        <property name="[0]" type="string">region A</property>
+                        <property name="[1]" type="string">t</property>
+                        <property name="[2]" type="string">luma</property>
+                    </property>
+                </property>
+                <property name="column_formats" type="array" class="[[[Ljava.lang.String;">
+                    <property name="[0]" type="array" class="[[Ljava.lang.String;">
+                        <property name="[0]" type="array" class="[Ljava.lang.String;">
+                            <property name="[0]" type="string">region A</property>
+                            <property name="[1]" type="string">B</property>
+                            <property name="[2]" type="string">0.0</property>
+                        </property>
+                        <property name="[1]" type="array" class="[Ljava.lang.String;">
+                            <property name="[0]" type="string">region A</property>
+                            <property name="[1]" type="string">R</property>
+                            <property name="[2]" type="string">0.0</property>
+                        </property>
+                        <property name="[2]" type="array" class="[Ljava.lang.String;">
+                            <property name="[0]" type="string">region A</property>
+                            <property name="[1]" type="string">pixels</property>
+                            <property name="[2]" type="string">0</property>
+                        </property>
+                        <property name="[3]" type="array" class="[Ljava.lang.String;">
+                            <property name="[0]" type="string">region A</property>
+                            <property name="[1]" type="string">t</property>
+                            <property name="[2]" type="string">0.000</property>
+                        </property>
+                        <property name="[4]" type="array" class="[Ljava.lang.String;">
+                            <property name="[0]" type="string">region A</property>
+                            <property name="[1]" type="string">G</property>
+                            <property name="[2]" type="string">0.0</property>
+                        </property>
+                        <property name="[5]" type="array" class="[Ljava.lang.String;">
+                            <property name="[0]" type="string">region A</property>
+                            <property name="[1]" type="string">step</property>
+                            <property name="[2]" type="string">0</property>
+                        </property>
+                        <property name="[6]" type="array" class="[Ljava.lang.String;">
+                            <property name="[0]" type="string">region A</property>
+                            <property name="[1]" type="string">frame</property>
+                            <property name="[2]" type="string">0</property>
+                        </property>
+                        <property name="[7]" type="array" class="[Ljava.lang.String;">
+                            <property name="[0]" type="string">region A</property>
+                            <property name="[1]" type="string">luma</property>
+                            <property name="[2]" type="string">0.0</property>
+                        </property>
+                    </property>
+                </property>
+            </object>
+            </property>
+        </property>
+        <property name="[2]" type="array" class="[Lorg.opensourcephysics.cabrillo.tracker.TView;">
+            <property name="[1]" type="object">
+            <object class="org.opensourcephysics.cabrillo.tracker.TableTView">
+                <property name="selected_track" type="string">region A</property>
+                <property name="track_columns" type="array" class="[[Ljava.lang.String;">
+                    <property name="[0]" type="array" class="[Ljava.lang.String;">
+                        <property name="[0]" type="string">region A</property>
+                        <property name="[1]" type="string">t</property>
+                        <property name="[2]" type="string">x</property>
+                        <property name="[3]" type="string">y</property>
+                        <property name="[4]" type="string">luma</property>
+                    </property>
+                </property>
+                <property name="column_formats" type="array" class="[[[Ljava.lang.String;">
+                    <property name="[0]" type="array" class="[[Ljava.lang.String;">
+                        <property name="[0]" type="array" class="[Ljava.lang.String;">
+                            <property name="[0]" type="string">region A</property>
+                            <property name="[1]" type="string">B</property>
+                            <property name="[2]" type="string">0.0</property>
+                        </property>
+                        <property name="[1]" type="array" class="[Ljava.lang.String;">
+                            <property name="[0]" type="string">region A</property>
+                            <property name="[1]" type="string">R</property>
+                            <property name="[2]" type="string">0.0</property>
+                        </property>
+                        <property name="[2]" type="array" class="[Ljava.lang.String;">
+                            <property name="[0]" type="string">region A</property>
+                            <property name="[1]" type="string">pixels</property>
+                            <property name="[2]" type="string">0</property>
+                        </property>
+                        <property name="[3]" type="array" class="[Ljava.lang.String;">
+                            <property name="[0]" type="string">region A</property>
+                            <property name="[1]" type="string">t</property>
+                            <property name="[2]" type="string">0.000</property>
+                        </property>
+                        <property name="[4]" type="array" class="[Ljava.lang.String;">
+                            <property name="[0]" type="string">region A</property>
+                            <property name="[1]" type="string">G</property>
+                            <property name="[2]" type="string">0.0</property>
+                        </property>
+                        <property name="[5]" type="array" class="[Ljava.lang.String;">
+                            <property name="[0]" type="string">region A</property>
+                            <property name="[1]" type="string">step</property>
+                            <property name="[2]" type="string">0</property>
+                        </property>
+                        <property name="[6]" type="array" class="[Ljava.lang.String;">
+                            <property name="[0]" type="string">region A</property>
+                            <property name="[1]" type="string">frame</property>
+                            <property name="[2]" type="string">0</property>
+                        </property>
+                        <property name="[7]" type="array" class="[Ljava.lang.String;">
+                            <property name="[0]" type="string">region A</property>
+                            <property name="[1]" type="string">luma</property>
+                            <property name="[2]" type="string">0.0</property>
+                        </property>
+                    </property>
+                </property>
+            </object>
+            </property>
+        </property>
+        <property name="[3]" type="array" class="[Lorg.opensourcephysics.cabrillo.tracker.TView;">
+            <property name="[1]" type="object">
+            <object class="org.opensourcephysics.cabrillo.tracker.TableTView">
+                <property name="selected_track" type="string">region A</property>
+                <property name="track_columns" type="array" class="[[Ljava.lang.String;">
+                    <property name="[0]" type="array" class="[Ljava.lang.String;">
+                        <property name="[0]" type="string">region A</property>
+                        <property name="[1]" type="string">t</property>
+                        <property name="[2]" type="string">x</property>
+                        <property name="[3]" type="string">y</property>
+                        <property name="[4]" type="string">luma</property>
+                    </property>
+                </property>
+                <property name="column_formats" type="array" class="[[[Ljava.lang.String;">
+                    <property name="[0]" type="array" class="[[Ljava.lang.String;">
+                        <property name="[0]" type="array" class="[Ljava.lang.String;">
+                            <property name="[0]" type="string">region A</property>
+                            <property name="[1]" type="string">B</property>
+                            <property name="[2]" type="string">0.0</property>
+                        </property>
+                        <property name="[1]" type="array" class="[Ljava.lang.String;">
+                            <property name="[0]" type="string">region A</property>
+                            <property name="[1]" type="string">R</property>
+                            <property name="[2]" type="string">0.0</property>
+                        </property>
+                        <property name="[2]" type="array" class="[Ljava.lang.String;">
+                            <property name="[0]" type="string">region A</property>
+                            <property name="[1]" type="string">pixels</property>
+                            <property name="[2]" type="string">0</property>
+                        </property>
+                        <property name="[3]" type="array" class="[Ljava.lang.String;">
+                            <property name="[0]" type="string">region A</property>
+                            <property name="[1]" type="string">t</property>
+                            <property name="[2]" type="string">0.000</property>
+                        </property>
+                        <property name="[4]" type="array" class="[Ljava.lang.String;">
+                            <property name="[0]" type="string">region A</property>
+                            <property name="[1]" type="string">G</property>
+                            <property name="[2]" type="string">0.0</property>
+                        </property>
+                        <property name="[5]" type="array" class="[Ljava.lang.String;">
+                            <property name="[0]" type="string">region A</property>
+                            <property name="[1]" type="string">step</property>
+                            <property name="[2]" type="string">0</property>
+                        </property>
+                        <property name="[6]" type="array" class="[Ljava.lang.String;">
+                            <property name="[0]" type="string">region A</property>
+                            <property name="[1]" type="string">frame</property>
+                            <property name="[2]" type="string">0</property>
+                        </property>
+                        <property name="[7]" type="array" class="[Ljava.lang.String;">
+                            <property name="[0]" type="string">region A</property>
+                            <property name="[1]" type="string">luma</property>
+                            <property name="[2]" type="string">0.0</property>
+                        </property>
+                    </property>
+                </property>
+            </object>
+            </property>
+        </property>
+    </property>
+    <property name="selected_views" type="array" class="[Ljava.lang.String;">
+        <property name="[0]" type="string">Plot View</property>
+        <property name="[1]" type="string">Table View</property>
+        <property name="[2]" type="string">World View</property>
+        <property name="[3]" type="string">Page View</property>
+    </property>
+    <property name="toolbar" type="object">
+    <object class="org.opensourcephysics.cabrillo.tracker.TToolBar">
+        <property name="trace" type="boolean">false</property>
+        <property name="position" type="boolean">true</property>
+        <property name="velocity" type="boolean">false</property>
+        <property name="acceleration" type="boolean">false</property>
+        <property name="labels" type="boolean">true</property>
+        <property name="multiply_by_mass" type="boolean">false</property>
+        <property name="trail_length" type="int">15</property>
+        <property name="stretch" type="int">1</property>
+        <property name="stretch_acceleration" type="int">1</property>
+    </object>
+    </property>
+    <property name="track_control_x" type="int">12</property>
+    <property name="track_control_y" type="int">118</property>
+</object>

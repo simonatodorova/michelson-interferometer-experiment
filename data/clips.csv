@@ -1,0 +1,41 @@
+file,region,source,video,micrometer_start_mm,micrometer_end_mm,use,note
+blue/961.trk,region A,Hg blue,IMG_6696,7.0,7.2,yes,
+blue/981.trk,region A,Hg blue,IMG_6698,7.0,7.2,yes,first tracking of IMG_6698
+blue/982.trk,region A,Hg blue,IMG_6698,7.0,7.2,yes,second tracking of IMG_6698 (different pixel)
+blue/991.trk,region A,Hg blue,IMG_6699,,,no,micrometer readings not recorded with this clip
+yellow/7011.trk,region B,Hg yellow,IMG_6701,7.0,7.2,yes,first tracking of IMG_6701 (region A is off the pattern)
+yellow/7012.trk,region A,Hg yellow,IMG_6701,7.0,7.2,yes,second tracking of IMG_6701
+green/IMG_6692.trk,region A,Hg green,IMG_6692,7.0,7.2,yes,clip of Figure 3 in the report (142 fringes counted in Origin)
+green/IMG_6692a.trk,region A,Hg green,IMG_6692,7.0,7.2,yes,second tracking of IMG_6692
+green/IMG_6680.trk,region A,Hg green,IMG_6680,,,no,calibration clip; micrometer readings not recorded with this clip
+green/IMG_6680a.trk,region A,Hg green,IMG_6680,,,no,
+green/IMG_6683.trk,region A,Hg green,IMG_6683,,,no,
+green/IMG_a.trk,region A,Hg green,IMG_6683,,,no,
+green/IMG_6684.trk,region A,Hg green,IMG_6684,,,no,
+green/IMG_6684a.trk,region A,Hg green,IMG_6684,,,no,
+green/IMG_6685.trk,region A,Hg green,IMG_6685,,,no,
+green/IMG_6685a.trk,region B,Hg green,IMG_6685,,,no,
+green/IMG_6686.trk,region A,Hg green,IMG_6686,,,no,
+green/IMG_6686a.trk,region A,Hg green,IMG_6686,,,no,
+green/IMG_6687.trk,region A,Hg green,IMG_6687,,,no,
+green/IMG_6687a.trk,region A,Hg green,IMG_6687,,,no,
+green/IMG_6688.trk,region A,Hg green,IMG_6688,,,no,
+green/IMG_6688a.trk,region A,Hg green,IMG_6688,,,no,
+green/IMG_6689.trk,region A,Hg green,IMG_6689,,,no,
+green/IMG_6689a.trk,region A,Hg green,IMG_6689,,,no,
+green/IMG_6690.trk,region A,Hg green,IMG_6690,,,no,
+green/IMG_6690a.trk,region A,Hg green,IMG_6690,,,no,
+green/IMG_6691.trk,region A,Hg green,IMG_6691,,,no,
+green/IMG_6691a.trk,region A,Hg green,IMG_6691,,,no,
+green/IMG_7016.trk,region A,day 2,IMG_7016,,,no,day 2 clip; source and micrometer readings not recorded
+green/IMG_7017.trk,region A,day 2,IMG_7017,,,no,
+green/IMG_7019.trk,region A,day 2,IMG_7019,,,no,
+green/IMG_7020.trk,region A,day 2,IMG_7020,,,no,
+green/IMG_7022.trk,region A,day 2,IMG_7022,,,no,
+green/IMG_7023.trk,region A,day 2,IMG_7023,,,no,
+green/IMG_7024.trk,region A,day 2,IMG_7024,,,no,
+green/IMG_7025.trk,region A,day 2,IMG_7025,,,no,
+green/IMG_7026.trk,region A,day 2,IMG_7026,,,no,
+green/IMG_7027.trk,region A,day 2,IMG_7027,,,no,
+green/IMG_7028.trk,region A,day 2,IMG_7028,,,no,
+green/IMG_7029.trk,region A,day 2,IMG_7029,,,no,
