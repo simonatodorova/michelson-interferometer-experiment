@@ -7,9 +7,17 @@
 </p>
 <p align="center"><sub>Fringes of the mercury green line recorded in the lab: equal thickness (left) and equal inclination (right). The triangle is a fixed marker.</sub></p>
 
-In a Michelson interferometer, moving one mirror by a distance *d* sweeps *N* dark fringes past any point of the pattern, where **2d = Nλ**. Counting hundreds of fringes by eye is slow and error-prone. So instead I filmed the pattern while turning the micrometer, tracked the brightness of a single pixel in [Tracker](https://physlets.org/tracker/), and counted the dark fringes in software.
+In a Michelson interferometer, moving one mirror by a distance *d* sweeps *N* dark fringes past any point of the pattern, where **2d = Nλ**. Counting hundreds of fringes by eye is slow and error-prone. So instead we filmed the pattern while turning the micrometer, tracked the brightness of a single pixel in [Tracker](https://physlets.org/tracker/), and counted the dark fringes in software.
 
 This repository turns that method into a reproducible pipeline. It reads the original Tracker files, counts the fringes automatically, calibrates the interferometer's lever, and measures the wavelengths.
+
+## Experimental setup
+
+<p align="center">
+  <img src="docs/setup.png" alt="Diagram of the Michelson interferometer: light source and filter, beam splitter, movable mirror driven by a micrometer through a lever, adjustable mirror, viewpoint and phone camera" width="700">
+</p>
+
+Light from a mercury or sodium lamp passes through a coloured glass filter and is split in two by the beam splitter. One beam reflects off a movable mirror, driven by a micrometer through a lever that reduces its motion by a factor *R* ≈ 0.2. The other reflects off a fixed mirror whose tilt is set with two screws. The beams recombine at the viewpoint, where a phone held parallel to it films the fringes.
 
 ## Results
 
@@ -61,7 +69,26 @@ Then [`analysis.py`](michelson/analysis.py) calibrates *R* = *N*λ<sub>green</su
 
 ## Background
 
-This was a second-year laboratory experiment at the University of Manchester (December 2019). The original report also measured the sodium D-line wavelength and the doublet separations, using node positions read by hand. Those readings are not part of this dataset, so they are not reproduced here.
+This was a second-year laboratory experiment at the University of Manchester (December 2019). The original report also measured the sodium D-line wavelength and the doublet separations, using node positions read by hand. Those readings are not part of this dataset, so they are not reproduced here. The final graphs from the report are shown below.
+
+<table>
+  <tr>
+    <td width="50%"><img src="docs/report_reduction_factor.jpg" alt="Mirror displacement against micrometer displacement for the mercury green line, with a linear fit"></td>
+    <td width="50%"><img src="docs/report_sodium_nodes.png" alt="Micrometer displacement against node number for the sodium lamp, with a linear fit"></td>
+  </tr>
+  <tr>
+    <td><sub><b>Calibration.</b> Mirror displacement against micrometer reading for the Hg green line. The slope gives the reduction factor <i>R</i> = 0.1992 ± 0.0007.</sub></td>
+    <td><sub><b>Sodium beats.</b> Micrometer position of successive points of minimum fringe visibility. The slope, 0.278 ± 0.004 mm per node, gives the D-line separation Δλ = λ²/2<i>D</i> = 0.605 ± 0.001 nm (NIST: 0.597 nm).</sub></td>
+  </tr>
+</table>
+
+| Result from the 2019 report | Measured | NIST |
+|---|---|---|
+| Hg blue | 426 ± 10 nm | 435.8 nm |
+| Hg yellow (doublet mean) | 580 ± 10 nm | 576.9 nm |
+| Hg yellow separation | 2.1 ± 0.1 nm | 2.106 nm |
+| Na D (doublet mean) | 595 ± 10 nm | 589.29 nm |
+| Na D separation | 0.605 ± 0.001 nm | 0.5974 nm |
 
 ## License
 
